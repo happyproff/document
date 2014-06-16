@@ -1,0 +1,12 @@
+{
+  "name": "document",
+  "version": "0.0.0",
+  "description": "Document helper",
+  "author": "Endy Jasmi <endyjasmi@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-phpunit": "^0.3.3"
+  }
+}

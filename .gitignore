@@ -1,3 +1,4 @@
 document.sublime-project
 document.sublime-workspace
 /vendor/
+/node_modules/
