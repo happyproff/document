@@ -36,4 +36,14 @@ class Document
 
 		return $this;
 	}
+
+	public function toArray()
+	{
+		return $this->properties;
+	}
+
+	public function toJson()
+	{
+		return json_encode($this->properties);
+	}
 }

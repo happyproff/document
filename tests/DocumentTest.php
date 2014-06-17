@@ -35,4 +35,16 @@ class DocumentTest extends TestCase
 		$this->assertTrue($documentPropertyExistsAfterSet);
 		$this->assertEquals('value', $getDocumentPropertyAfterSet);
 	}
+
+	public function testDocumentMorphMethod()
+	{
+		$document = new Document;
+		$document->setProperty('property', 'value');
+
+		$returnArrayDocument = $document->toArray();
+		$returnJsonDocument = $document->toJson();
+
+		$this->assertNotEmpty($returnArrayDocument);
+		$this->assertEquals('{"property":"value"}', $returnJsonDocument);
+	}
 }
