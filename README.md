@@ -1,4 +1,4 @@
-#Document
+#Document [![Build Status](https://travis-ci.org/endyjasmi/document.svg?branch=develop)](https://travis-ci.org/endyjasmi/document) [![License](https://poser.pugx.org/endyjasmi/document/license.svg)](https://packagist.org/packages/endyjasmi/document)
 Provide document helper method like getter and setter. Primarily used by extending this class.
 
 ##How to install
